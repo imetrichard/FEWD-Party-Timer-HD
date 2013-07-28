@@ -30,7 +30,6 @@ var start = function () {
 
    }, 10000);
 
-  var place2;
   setTimeout(function () {
       document.getElementById("dance2").style.display = 'inline';
   }, 13400);

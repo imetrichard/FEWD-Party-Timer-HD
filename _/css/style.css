@@ -20,6 +20,7 @@ main {
   background-color: #f5f5f5;
   border-radius: 6px;
   border: 1px solid #c5c5c5;
+  opacity: 0.9;
 }
 
 #start, #reset {
@@ -88,6 +89,7 @@ h2 {
   top: 100px;
   position: absolute;
   display: none;
+  z-index: 99;
 }
 
 #dance2 {
