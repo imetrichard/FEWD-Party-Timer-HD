@@ -1,0 +1,36 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+
+  	<meta charset="utf-8">
+
+  	<title>Playing With Javascript</title>
+
+  	<meta name="title" content="Party Timer" />
+  	<meta name="description" content="Party Timer" />
+  	<meta name="author" content="Richard Enlow" />
+
+  	<link rel="stylesheet" href="_/css/style.css" />
+      <script type="text/javascript" src="_/js/yolo.js">
+      </script>
+
+  </head>
+
+  <body id="party">
+  <div id="dance">
+    <img src="img/dance.gif">
+  </div>
+  <div id="dance2">
+  </div>
+
+  <main>
+        <section class="timer">
+          <h2>PARTYTIMER HD</h2>
+          <h1><span id="secs">5</span>s</h1>
+          <div id="start" onclick="start()">AREYOUREADY?!</div>
+          <div id="reset" onclick="reset()">STOPTHEPARTY!</div>
+        </section>
+      </main>
+      <audio id="audio" src="sound.mp3" preload="auto"></audio>
+  </body>
+</html>
