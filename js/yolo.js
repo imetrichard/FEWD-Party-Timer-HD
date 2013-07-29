@@ -32,7 +32,7 @@ var start = function () {
 
   setTimeout(function () {
       document.getElementById("dance2").style.display = 'inline';
-  }, 13400);
+  }, 14500);
 
   setTimeout(function () {
     clearInterval(place);
