@@ -1,4 +1,5 @@
 console.log("yolo");
+alert("This Website Has Been Identified To Potentially Trigger Seizures in Some Viewers. Viewer Discretion is Advised.")
 
 var start = function () {
   function tick () {
@@ -9,6 +10,7 @@ var start = function () {
         clearInterval(intervalID);
         document.getElementById("party").style.background='url("img/party3.gif") center center';
         document.getElementById("party").style.backgroundSize='cover';
+        document.getElementById('tick').pause();
         document.getElementById('audio').play();
         document.getElementById("reset").style.display = 'block';
         document.getElementById("start").style.display = 'none';
@@ -16,6 +18,7 @@ var start = function () {
       }
       else {
         sec.innerText = s - 1;
+        document.getElementById('tick').play();
       }
   }
   var place;
@@ -39,6 +42,8 @@ var start = function () {
     document.getElementById("dance").style.display = 'none';
     document.getElementById("dance2").style.display = 'none';
     document.getElementById("party").style.background='url(" ") center center';
+    document.getElementById("start").style.display = 'block';
+    document.getElementById("reset").style.display = 'none';
    }, 29000);
 
   var intervalID = setInterval(tick, 1000);
